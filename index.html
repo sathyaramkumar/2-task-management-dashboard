@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Task Management dashboard
+        </title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+        <!-- font awesome icon cdn -->
+        <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- css file cdn -->
+        <link rel="stylesheet" href="src/css/style.css">
+
+    </head>
+    <body>
+
+        <div class="background-blur">
+            <img src="src/img/Screenshot_285.png" alt="background">
+        </div>
+
+        <div class="container">
+
+            <div class="sidebar">
+                <nav class="sidebar-nav">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-file-contract"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-tv"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-comment-dots"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-cog"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+
+            <div class="main">
+
+                <div class="title-bar">
+
+                    <h2 class="title-bar-title">Task Management</h2>
+                    <form class="title-bar-form">
+                        <input type="search" class="search" placeholder="Search...">
+                        <button>
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+
+                    <div class="title-bar-notification">
+                        <div class="notification-icon">
+                            <button>
+                                <i class="far fa-bell"></i>
+                            </button>
+                        </div>
+
+                        <div class="notification-dropdown">
+                            <ul>
+                                <li class="notification-list">
+                                    <i class="fas fa-cog"></i>
+                                    <h4>New Notification</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate 
+                                       veritatis beatae.
+                                    </p>
+                                </li>
+                                <li class="notification-list">
+                                    <i class="fas fa-cog"></i>
+                                    <h4>New Notification</h4>
+                                    <p>veniam fuga minus in ratione, voluptates dolor. 
+                                       Asperiores, ab labore hic illo suscipit incidunt nihil rerum assumenda vero deleniti.
+                                    </p>
+                                </li>
+                                <li class="notification-list">
+                                    <i class="fas fa-cog"></i>
+                                    <h4>New Notification</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate 
+                                       veritatis beatae veniam fuga minus in ratione, voluptates dolor. 
+                                    </p>
+                                </li>
+                                <li class="notification-list">
+                                    <i class="fas fa-cog"></i>
+                                    <h4>New Notification</h4>
+                                    <p> 
+                                       Asperiores, ab labore hic illo suscipit incidunt nihil rerum assumenda vero deleniti.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="title-bar-profile">
+                        <div class="avator-profile">
+                            <img src="src/img/avatar-ali.png" alt="ali">
+                            <h5>Ghulam</h5>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="profile-dropdown">
+                            <ul>
+                                <li class="profile-list">
+                                    <i class="far fa-id-badge"></i>
+                                    <h5>Profile</h5>
+                                </li>
+                                <li class="profile-list">
+                                    <i class="fas fa-cog"></i>
+                                    <h5>Setting</h5>
+                                </li>
+                                <li class="profile-list">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <h5>Log out</h5>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-container">
+
+                    <div class="main-card">
+
+                        <div class="card-title-section">
+    
+                            <div class="card-brand">
+                                <i class="far fa-calendar-alt"></i>
+                                <h3>June 7,2020</h3>
+                            </div>
+    
+                            <nav class="period-nav">
+                                <ul>
+                                    <li class="period-list">
+                                        <a href="#">Day</a>
+                                    </li>
+                                    <li class="period-list">
+                                        <a href="#">Week</a>
+                                    </li>
+                                    <li class="period-list">
+                                        <a href="#">Month</a>
+                                    </li>
+                                    <li class="period-list">
+                                        <a href="#">Year</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+    
+                        <div class="card-graph-container">
+    
+                            <div class="card-graph">
+    
+                                <div class="graph-container">
+                                    <h6>Research</h6>
+                                    <div>
+                                        <small>About 2 Hours</small>
+                                        <img src="src/img/avatar-anisha.png" alt="anisha">
+                                        <img src="src/img/avatar-richard.png" alt="richard">
+                                    </div>
+                                </div>
+    
+                                <div class="graph-container">
+                                    <h6>Wireframes</h6>
+                                    <div>
+                                        <small>About 5 Hours</small>
+                                        <img src="src/img/avatar-richard.png" alt="richard">
+                                    </div>
+                                    <div>
+                                        <small>About 3 hours</small>
+                                        <img src="src/img/avatar-shanai.png" alt="shanai">
+                                        <img src="src/img/avatar-ali.png" alt="ali">
+                                    </div>
+                                </div>
+    
+                                <div class="graph-container">
+                                    <h6>UI Design</h6>
+                                    <div>
+                                        <small>About 2 Hours</small>
+                                        <img src="src/img/avatar-anisha.png" alt="anisha">
+                                        <img src="src/img/avatar-richard.png" alt="richard">
+                                    </div>
+                                </div>
+    
+                                <div class="graph-container">
+                                    <h6>Protoyping</h6>
+                                    <div>
+                                        <small>About 2 Hours</small>
+                                        <img src="src/img/avatar-anisha.png" alt="anisha">
+                                        <img src="src/img/avatar-richard.png" alt="richard">
+                                        <img src="src/img/avatar-shanai.png" alt="shanai">
+                                    </div>
+                                </div>
+    
+                                <div class="graph-container">
+                                    <h6>Usability Test</h6>
+                                    <div>
+                                        <small>About 2 Hours</small>
+                                        <img src="src/img/avatar-anisha.png" alt="anisha">
+                                        <img src="src/img/avatar-richard.png" alt="richard">
+                                        <img src="src/img/avatar-shanai.png" alt="shanai">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="graph-value">
+                                <span>1PM</span>
+                                <span>2PM</span>
+                                <span>3PM</span>
+                                <span>4PM</span>
+                                <span>5PM</span>
+                                <span>6PM</span>
+                                <span>7PM</span>
+                                <span>8PM</span>
+                                <span>9PM</span>
+                            </div>
+                        </div>
+    
+    
+                        <div class="multi-card-container">
+    
+                            <div class="mini-card">
+    
+                                <div class="card-icon">
+                                    <i class="far fa-lightbulb"></i>
+                                </div>
+    
+                                <a href="#">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </a>
+    
+                                <div class="mini-card-title">
+                                    <h3>UX UI Design</h3>
+                                    <small>Cuberto Creative</small>
+                                </div>
+    
+                                <div class="mini-card-avator">
+                                    <img src="src/img/avatar-richard.png" alt="richard">
+                                    <img src="src/img/avatar-anisha.png" alt="anisha">
+                                </div>
+    
+                                <div class="mini-card-progress">
+    
+                                    <div class="card-progress">
+                                        <h5>Progress</h5>
+                                        <h5>45%</h5>
+                                    </div>
+                                    <div class="progress"></div>
+                                </div>
+    
+                                <div class="mini-card-footer">
+    
+                                    <div class="card-like">
+                                        <i class="far fa-thumbs-up"></i>
+                                        <small>4</small>
+                                    </div>
+    
+                                    <div class="card-comment">
+                                        <i class="far fa-comment"></i>
+                                        <small>3</small>
+                                    </div>
+    
+                                    <div class="time">
+                                        <i class="far fa-clock"></i>
+                                        <small>3 Week left</small> 
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="mini-card">
+    
+                                <div class="card-icon">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                </div>
+    
+                                <a href="#">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </a>
+    
+                                <div class="mini-card-title">
+                                    <h3>Backend Team</h3>
+                                    <small>Asp.net</small>
+                                </div>
+    
+                                <div class="mini-card-avator">
+                                    <img src="src/img/avatar-richard.png" alt="richard">
+                                    <img src="src/img/avatar-anisha.png" alt="anisha">
+                                    <img src="src/img/avatar-ali.png" alt="ali">
+                                </div>
+    
+                                <div class="mini-card-progress">
+    
+                                    <div class="card-progress">
+                                        <h5>Progress</h5>
+                                        <h5>100%</h5>
+                                    </div>
+                                    <div class="progress"></div>
+                                </div>
+    
+                                <div class="mini-card-footer">
+    
+                                    <div class="card-like">
+                                        <i class="far fa-thumbs-up"></i>
+                                        <small>4</small>
+                                    </div>
+    
+                                    <div class="card-comment">
+                                        <i class="far fa-comment"></i>
+                                        <small>3</small>
+                                    </div>
+    
+                                    <div class="time">
+                                        <i class="far fa-clock"></i>
+                                        <small>2 Week left</small> 
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="mini-card">
+    
+                                <div class="card-icon">
+                                    <i class="fas fa-notes-medical"></i>
+                                </div>
+    
+                                <a href="#">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </a>
+    
+                                <div class="mini-card-title">
+                                    <h3>Sofware Testing</h3>
+                                    <small>Cubents Testing</small>
+                                </div>
+    
+                                <div class="mini-card-avator">
+                                    <img src="src/img/avatar-richard.png" alt="richard">
+                                    <img src="src/img/avatar-anisha.png" alt="anisha">
+                                    <img src="src/img/avatar-ali.png" alt="ali">
+                                </div>
+    
+                                <div class="mini-card-progress">
+    
+                                    <div class="card-progress">
+                                        <h5>Progress</h5>
+                                        <h5>75%</h5>
+                                    </div>
+                                    <div class="progress"></div>
+                                </div>
+    
+                                <div class="mini-card-footer">
+    
+                                    <div class="card-like">
+                                        <i class="far fa-thumbs-up"></i>
+                                        <small>4</small>
+                                    </div>
+    
+                                    <div class="card-comment">
+                                        <i class="far fa-comment"></i>
+                                        <small>3</small>
+                                    </div>
+    
+                                    <div class="time">
+                                        <i class="far fa-clock"></i>
+                                        <small>1 Week left</small> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-side-section">
+                        <div class="overall-card">
+                            <h4 class="overall-card-title">
+                                Overall Progress
+                            </h4>
+                            <small class="overall-card-sub-title">
+                                Cuberto Testing
+                            </small>
+                            <div class="circle-progress">
+                                <div class="progress-1">
+                                    <div class="progress-2">
+                                        <div class="circle-block"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prograss-value">
+                                <h1>75%</h1>
+                                <small>progress</small>
+                            </div>
+                        </div>
+
+                        <div class="active-list">
+                            <h2>Recent Activities</h2>
+                            <small>11August 2020</small>
+                            <hr>
+                            <div class="active-list-body">
+
+                                <div class="active-list-profile">
+                                    <img src="src/img/avatar-anisha.png" alt="anisha">
+                                    <div class="list-profile-title">
+                                        <h5>Mile Loke</h5>
+                                        <small>Backend Developer</small>
+                                        <time>5 Mins ago</time>
+                                    </div>
+                                </div>
+
+                                <div class="active-list-profile">
+                                    <img src="src/img/avatar-ali.png" alt="ali">
+                                    <div class="list-profile-title">
+                                        <h5>Sarah Hosten</h5>
+                                        <small>Senior Quality Assurance</small>
+                                        <time>15 Mins ago</time>
+                                    </div>
+                                </div>
+
+                                <div class="active-list-profile">
+                                    <img src="src/img/avatar-richard.png" alt="richard">
+                                    <div class="list-profile-title">
+                                        <h5>Dema Thompson</h5>
+                                        <small>Business Development</small>
+                                        <time>30 Mins ago</time>
+                                    </div>
+                                </div>
+
+                                <div class="active-list-profile">
+                                    <img src="src/img/avatar-anisha.png" alt="anisha">
+                                    <div class="list-profile-title">
+                                        <h5>Willion Tiet</h5>
+                                        <small>Project Manager</small>
+                                        <time>1 hours ago</time>
+                                    </div>
+                                </div>
+
+                                <div class="active-list-profile">
+                                    <img src="src/img/avatar-anisha.png" alt="anisha">
+                                    <div class="list-profile-title">
+                                        <h5>Ghulam</h5>
+                                        <small>Senior UX UI Designer</small>
+                                        <time>45 Mins ago</time>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="update-cards">
+                            <div class="update-card">
+                                <h1>550</h1>
+                                <small>Total Project</small>
+                            </div>
+                            <div class="update-card">
+                                <h1>250</h1>
+                                <small>Upcoming</small>
+                            </div>
+                            <div class="update-card">
+                                <h1>390</h1>
+                                <small>In Progress</small>
+                            </div>
+                            <div class="update-card">
+                                <h1>125</h1>
+                                <small>Completed</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
