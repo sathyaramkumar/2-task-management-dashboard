@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.background-blur {
+    img {
+        width: 100vw;
+        height: 100vh;
+        filter: blur(20px);
+    }
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    @include flex(row);
+}
+
+.main-container {
+    @include flex(row);
+}

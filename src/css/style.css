@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.background-blur img {
+  width: 100vw;
+  height: 100vh;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sidebar {
+  width: 8vw;
+  text-align: center;
+}
+
+.sidebar-nav {
+  margin-top: 60px;
+}
+
+.sidebar-nav ul .nav-item {
+  padding: 20px 0;
+}
+
+.sidebar-nav ul .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.521);
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.sidebar-nav ul .nav-item .nav-link:hover {
+  background-color: #4361ee;
+  color: white;
+}
+
+.title-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 90vw;
+  padding: 10px 0;
+}
+
+.title-bar-title {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.title-bar-form {
+  padding-top: 10px;
+  margin-left: auto;
+}
+
+.title-bar-form .search {
+  padding: 7px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.582);
+  border-radius: 20px;
+  width: 200px;
+}
+
+.title-bar-form button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.521);
+  margin: 0 10px;
+}
+
+.title-bar-notification {
+  padding-top: 10px;
+}
+
+.title-bar-notification .notification-icon {
+  border-right: 2px solid rgba(0, 0, 0, 0.582);
+}
+
+.title-bar-notification .notification-icon button {
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.521);
+  margin: 0 10px;
+}
+
+.title-bar-notification .notification-dropdown {
+  width: 300px;
+  position: absolute;
+  top: 70px;
+  right: 170px;
+  background-color: white;
+  padding: 20px;
+}
+
+.title-bar-notification .notification-dropdown::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  z-index: 10;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid black;
+}
+
+.title-bar-notification .notification-dropdown ul .notification-list {
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.title-bar-notification .notification-dropdown ul .notification-list:last-child {
+  border-bottom: none;
+}
+
+.title-bar-notification .notification-dropdown ul .notification-list i {
+  display: inline;
+}
+
+.title-bar-notification .notification-dropdown ul .notification-list h4 {
+  display: inline;
+}
+
+.title-bar-notification .notification-dropdown ul .notification-list p {
+  font-size: 12px;
+}
+
+.title-bar-profile {
+  padding: 0 10px;
+}
+
+.title-bar-profile .avator-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-bar-profile .avator-profile img {
+  width: 3vw;
+  margin: 0 10px;
+}
+
+.title-bar-profile .avator-profile h5 {
+  margin: 0 5px;
+}
+
+.title-bar-profile .avator-profile i {
+  margin: 0 5px;
+  color: rgba(0, 0, 0, 0.521);
+}
+
+.title-bar-profile .profile-dropdown {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

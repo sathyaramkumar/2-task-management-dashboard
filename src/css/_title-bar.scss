@@ -1,0 +1,101 @@
+.title-bar {
+    @include flex-jc-ai(row , center , flex-start);
+    width: 90vw;
+    padding: 10px 0;
+    &-title {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    &-form {
+        padding-top: 10px;
+        margin-left: auto;
+        .search {
+            padding: 7px 10px;
+            border: 1px solid rgba(0, 0, 0, 0.582);
+            border-radius: 20px;
+            width: 200px;
+        }
+        button {
+            border: none;
+            background-color: transparent;
+            font-size: 20px;
+            color: $textMuted;
+            margin: 0 10px;
+        }
+    }
+    &-notification {
+        padding-top: 10px;
+        .notification-icon {
+            border-right: 2px solid rgba(0, 0, 0, 0.582);
+            button {
+                border: none;
+                background-color: transparent;
+                font-size: 22px;
+                color: $textMuted;
+                margin: 0 10px;
+            }
+        }
+        .notification-dropdown {
+            width: 300px;
+            position: absolute;
+            top: 70px;
+            right: 170px;
+            background-color: $white;
+            padding: 20px;
+            &::before {
+                content: '';
+                display: block;
+                width: 0;
+                height: 0;
+                z-index: 10;
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-bottom: 40px solid black;
+            }
+            ul {
+                .notification-list {
+                    padding: 5px 0;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                    i {
+                        display: inline;
+                    }
+                    h4 {
+                        display: inline;
+                    }
+                    p {
+                        font-size: $expraSmallText;
+                    }
+                }
+            }
+        }
+    }
+    &-profile {
+        padding: 0 10px;
+        .avator-profile {
+            @include flex-jc-ai(row , center , center);
+            img {
+                width: 3vw;
+                margin: 0 10px;
+            }
+            h5 {
+                margin: 0 5px;
+            }
+            i {
+                margin: 0 5px;
+                color: $textMuted;
+            }
+        }
+        .profile-dropdown {
+            display: none;
+            ul {
+                .profile-list {
+                    i {}
+                    h5 {}
+                }
+            }
+        }
+    }
+}
