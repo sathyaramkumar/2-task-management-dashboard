@@ -100,8 +100,8 @@ body {
 }
 
 .title-bar-form {
-  padding-top: 10px;
   margin-left: auto;
+  padding-top: 10px;
 }
 
 .title-bar-form .search {
@@ -117,6 +117,10 @@ body {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.521);
   margin: 0 10px;
+}
+
+.title-bar-form button:hover {
+  color: black;
 }
 
 .title-bar-notification {
@@ -135,33 +139,47 @@ body {
   margin: 0 10px;
 }
 
+.title-bar-notification .notification-icon button:hover {
+  color: black;
+}
+
 .title-bar-notification .notification-dropdown {
+  display: none;
   width: 300px;
   position: absolute;
   top: 70px;
-  right: 170px;
+  right: 180px;
   background-color: white;
-  padding: 20px;
+  padding: 20px 0;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
-.title-bar-notification .notification-dropdown::before {
+.title-bar-notification .notification-dropdown ul .notification-list {
+  padding: 5px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.title-bar-notification .notification-dropdown ul .notification-list:first-child::before {
   content: '';
   display: block;
   width: 0;
   height: 0;
   z-index: 10;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 40px solid black;
-}
-
-.title-bar-notification .notification-dropdown ul .notification-list {
-  padding: 5px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid white;
+  position: relative;
+  left: 245px;
+  bottom: 35px;
 }
 
 .title-bar-notification .notification-dropdown ul .notification-list:last-child {
   border-bottom: none;
+}
+
+.title-bar-notification .notification-dropdown ul .notification-list:hover {
+  background-color: rgba(0, 0, 0, 0.048);
 }
 
 .title-bar-notification .notification-dropdown ul .notification-list i {
@@ -205,12 +223,119 @@ body {
   margin: 0 5px;
 }
 
-.title-bar-profile .avator-profile i {
-  margin: 0 5px;
+.title-bar-profile .avator-profile button {
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
   color: rgba(0, 0, 0, 0.521);
+  margin: 0 10px;
+}
+
+.title-bar-profile .avator-profile button:hover {
+  color: black;
 }
 
 .title-bar-profile .profile-dropdown {
   display: none;
+  text-align: left;
+  background-color: white;
+  width: 110px;
+  position: absolute;
+  right: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+}
+
+.title-bar-profile .profile-dropdown ul .profile-list:first-child::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid white;
+  position: relative;
+  bottom: 33px;
+  left: 85px;
+}
+
+.title-bar-profile .profile-dropdown ul .profile-list a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+  padding-right: 20px;
+  color: black;
+}
+
+.title-bar-profile .profile-dropdown ul .profile-list a:hover {
+  background-color: rgba(0, 0, 0, 0.048);
+}
+
+.title-bar-profile .profile-dropdown ul .profile-list a:last-child {
+  border-bottom: none;
+}
+
+.title-bar-profile .profile-dropdown ul .profile-list a i {
+  padding: 0 10px;
+}
+
+.main-card {
+  background-color: white;
+}
+
+.main-card .card-title-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-card .card-title-section .card-brand i {
+  display: inline;
+}
+
+.main-card .card-title-section .card-brand h3 {
+  display: inline;
+}
+
+.main-card .card-title-section .period-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-card .card-title-section .period-nav ul .period-list a {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

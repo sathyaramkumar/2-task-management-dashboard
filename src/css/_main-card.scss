@@ -1,0 +1,75 @@
+.main-card {
+    background-color: $white;
+    .card-title-section {
+        @include flex-jc-ai(row , space-between ,center);
+        .card-brand {
+            i {
+                display: inline;
+            }
+            h3 {
+                display: inline;
+            }
+        }
+        .period-nav {
+            ul {
+                @include flex-jc-ai(row , center ,center);
+                .period-list {
+                    a {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+    .card-graph-container {
+        .card-graph {
+            .graph-container {
+                h6 {}
+                div {
+                    small {}
+                    img {}
+                }
+            }
+        }
+        .graph-value {
+            span {}
+        }
+    }
+    .multi-card-container {
+        .mini-card {
+            .card-icon {
+                i {}
+            }
+            a {
+                i {}
+            }
+            .mini-card-title {
+                h3 {}
+                small {}
+            }
+            .mini-card-avator {
+                img {}
+            }
+            .mini-card-progress {
+                .card-progress {
+                    h5 {}
+                }
+                .progress {}
+            }
+            .mini-card-footer {
+                .card-link {
+                    i {}
+                    small {}
+                }
+                .card-comment {
+                    i {}
+                    small {}
+                }
+                .time {
+                    i {}
+                    small {}
+                }
+            }
+        }
+    }
+}
