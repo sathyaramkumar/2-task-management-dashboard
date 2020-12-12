@@ -81,12 +81,12 @@
 
                     <div class="title-bar-notification">
                         <div class="notification-icon">
-                            <button>
+                            <button onclick="notificationDrop()">
                                 <i class="far fa-bell"></i>
                             </button>
                         </div>
 
-                        <div class="notification-dropdown">
+                        <div class="notification-dropdown" id="dropdown">
                             <ul>
                                 <li class="notification-list">
                                     <i class="fas fa-cog"></i>
@@ -124,21 +124,30 @@
                         <div class="avator-profile">
                             <img src="src/img/avatar-ali.png" alt="ali">
                             <h5>Ghulam</h5>
-                            <i class="fas fa-chevron-down"></i>
+                            <button onclick="profileDrop()">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
                         </div>
-                        <div class="profile-dropdown">
+
+                        <div class="profile-dropdown" id="profileDropDown">
                             <ul>
                                 <li class="profile-list">
-                                    <i class="far fa-id-badge"></i>
-                                    <h5>Profile</h5>
+                                    <a href="#">
+                                        <i class="far fa-id-badge"></i>
+                                        <h5>Profile</h5>
+                                    </a>
                                 </li>
                                 <li class="profile-list">
-                                    <i class="fas fa-cog"></i>
-                                    <h5>Setting</h5>
+                                    <a href="#">
+                                        <i class="fas fa-cog"></i>
+                                        <h5>Setting</h5>
+                                    </a>
                                 </li>
                                 <li class="profile-list">
-                                    <i class="fas fa-sign-out-alt"></i>
-                                    <h5>Log out</h5>
+                                    <a href="#">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <h5>Log out</h5>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -489,5 +498,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- js link -->
+        <script src="src/js/index.js"></script>
     </body>
 </html>
