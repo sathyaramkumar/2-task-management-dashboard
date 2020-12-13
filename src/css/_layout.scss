@@ -6,8 +6,9 @@ body {
 .background-blur {
     img {
         width: 100vw;
-        height: 100vh;
-        filter: blur(20px);
+        height: 150vh;
+        filter: contrast(85%);
+
     }
 }
 
@@ -15,8 +16,14 @@ body {
     position: absolute;
     top: 0;
     @include flex(row);
+    margin-left: 140px;
 }
-
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
 .main-container {
     @include flex(row);
 }

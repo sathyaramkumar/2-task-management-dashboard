@@ -1,75 +1,382 @@
 .main-card {
     background-color: $white;
+    width: 70vw;
+    border-radius: 50px;
+    padding: 5px;
+    padding-bottom: 40px;
     .card-title-section {
         @include flex-jc-ai(row , space-between ,center);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.151);
         .card-brand {
+            padding: 20px;
             i {
                 display: inline;
             }
             h3 {
                 display: inline;
+                padding-left: 10px;
             }
         }
         .period-nav {
             ul {
                 @include flex-jc-ai(row , center ,center);
+                padding-right: 50px;
                 .period-list {
+                    width: 90px;
+                    border-bottom: 2px solid transparent;
                     a {
-                        color: $black;
+                        padding: 22px 20px;
+                        color: $textMuted;
+                        &:hover {
+                            border-bottom: 2px solid $blue;
+                            color: $blue;
+                        }
                     }
                 }
             }
         }
     }
     .card-graph-container {
+        padding: 20px 10px 10px 20px;
+        position: relative;
         .card-graph {
             .graph-container {
-                h6 {}
-                div {
-                    small {}
-                    img {}
+                @include flex-jc-ai(row , start , center);
+                &:first-child {
+                    .hour-container {
+                        margin-left: 50px;
+                        width: 400px;
+                        height: 40px;
+                        border-left: 5px solid $pink;
+                        background-color: $pinkLite;
+                        small {
+                            color: $pink;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+                &:nth-child(2) {
+                    .vacation {
+                        width: 200px;
+                        border-bottom: 2px solid $thickBlue;
+                        margin-top: -15px;
+                        p {
+                            font-size: 12px;
+                            color: $thickBlue;
+                            width: 55px;
+                            margin: auto;
+                        }
+                    }
+                    .period-container {
+                        @include flex-jc-ai(row , start , center);
+                        margin-left: 135px;
+                        .hour-container {
+                            height: 40px;
+                            border-left: 5px solid $thickBlue;
+                            background-color: $thickBlueLite;
+                            &:nth-child(1) {
+                                width: 240px;
+                            }
+                            &:last-child {
+                                width: 300px;
+                            }
+                            small { 
+                                color: $thickBlue;
+                                padding-left: 20px;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(3) {
+                    .hour-container {
+                        margin-left: 250px;
+                        width: 450px;
+                        height: 40px;
+                        border-left: 5px solid $orange;
+                        background-color: $orangeLite;
+                        small {
+                            color: $orange;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+                &:nth-child(4) {
+                    .hour-container {
+                        margin-left: 335px;
+                        width: 450px;
+                        height: 40px;
+                        border-left: 5px solid $green;
+                        background-color: $greenLite;
+                        small {
+                            color: $green;
+                            padding-left: 20px;
+                        }
+                        .img-group {
+                            img {
+                                margin-left: -10px;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(5) {
+                    .hour-container {
+                        margin-left: 425px;
+                        width: 440px;
+                        height: 40px;
+                        border-left: 5px solid $skyBlue;
+                        background-color: $skyBlueLite;
+                        small {
+                            color: $skyBlue;
+                            padding-left: 20px;
+                        }
+                        .img-group {
+                            img {
+                                margin-left: -10px;
+                            }
+                        }
+                    }
+                }
+                h6 {
+                    padding: 30px;
+                }
+                .hour-container {
+                    @include flex-jc-ai(row , start , center);
+                    border-radius: 0 10px 10px 0;
+                    small {
+                        display: block;
+                        font-size: 10px;
+                    }
+                    .img-group {
+                        margin-left: auto;
+                        margin-right: 10px;
+                        padding-top: 7px;
+                        img {
+                            width: 20px;
+                            border: 1px solid white;
+                            border-radius: 50px;
+                            &:last-child {
+                                margin-left: -10px;
+                            }
+                        }
+                    }
                 }
             }
         }
         .graph-value {
-            span {}
+            margin-left: 155px;
+            padding-top: 30px;
+            span {
+                font-size: $expraSmallText;
+                color: $textMuted;
+                padding: 0 35px;
+                &:nth-child(1) {
+                    padding-left: 0;
+                    &::before {
+                        content: '';
+                        width: 5px;
+                        height: 350px;
+                        border-left: 2px dashed $textMuted;
+                        display: block;
+                        position: absolute;
+                        top: 80px;
+                        left: 183px;
+                    }
+                }
+                &:nth-child(2) {
+                    &::before {
+                        content: '';
+                        width: 5px;
+                        height: 270px;
+                        border-left: 2px dashed $textMuted;
+                        display: block;
+                        position: absolute;
+                        top: 160px;
+                        left: 280px;
+                    }
+                }
+                &:nth-child(3) {
+                    &::before {
+                        content: '';
+                        width: 5px;
+                        height: 200px;
+                        border-left: 2px dashed $textMuted;
+                        display: block;
+                        position: absolute;
+                        top: 230px;
+                        left: 382px;
+                    }
+                }
+                &:nth-child(4) {
+                    &::before {
+                        content: '';
+                        width: 5px;
+                        height: 120px;
+                        border-left: 2px dashed $textMuted;
+                        display: block;
+                        position: absolute;
+                        top: 310px;
+                        left: 477px;
+                    }
+                }
+                &:nth-child(5) {
+                    &::before {
+                        content: '';
+                        width: 5px;
+                        height: 45px;
+                        border-left: 2px dashed $textMuted;
+                        display: block;
+                        position: absolute;
+                        top: 385px;
+                        left: 580px;
+                    }
+                }
+            }
         }
     }
+
     .multi-card-container {
+        @include flex(row);
+        width: 1000px;
+        margin: 100px auto auto auto;
         .mini-card {
+            box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.116);
+            width: 300px;
+            text-align: center;
+            border-radius: 20px;
+            margin: 0 20px;
+            padding: 15px;
+            &:first-child {
+                .mini-card-progress {
+                    .progress {
+                        &::after {
+                            content: '';
+                            display: block;
+                            border-radius: 20px;
+                            height: 5px;
+                            width: 45%;
+                            background-color: $green;
+                        }
+                    }
+                }
+                .mini-card-footer {
+                    .time {
+                        background-color: $pinkLite;
+                        color: $pink;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .mini-card-progress {
+                    .progress {
+                        &::after {
+                            content: '';
+                            display: block;
+                            border-radius: 20px;
+                            height: 5px;
+                            width: 100%;
+                            background-color: $green;
+                        }
+                    }
+                }
+                .mini-card-footer {
+                    .time {
+                        background-color: $thickBlueLite;
+                        color: $thickBlue;
+                    }
+                }
+            }
+            &:nth-child(3) {
+                .mini-card-progress {
+                    .progress {
+                        &::after {
+                            content: '';
+                            display: block;
+                            border-radius: 20px;
+                            height: 5px;
+                            width: 75%;
+                            background-color: $green;
+                        }
+                    }
+                }
+                .mini-card-footer {
+                    .time {
+                        background-color: $greenLite;
+                        color: $green;
+                    }
+                }
+            }
             .card-icon {
-                i {}
+                font-size: 40px;
+                color: $white;
+                margin-top: -40px;
+                i {
+                    background-color: $blue;
+                    padding: 15px;
+                    border-radius: 15px;
+                }
             }
             a {
-                i {}
+                position: relative;
+                top: -20px;
+                left: 120px;
+                color: $textMuted;
             }
             .mini-card-title {
-                h3 {}
-                small {}
+                h3 {
+                    font-size: $text;
+                }
+                small {
+                    font-size: $expraSmallText;
+                    color: $textMuted;
+                }
             }
             .mini-card-avator {
-                img {}
+                margin: 10px 0;
+                img {
+                    width: 20px;
+                    margin-left: -10px;
+                    &:last-child {
+                        margin-left: -10px;
+                    }
+                }
             }
             .mini-card-progress {
                 .card-progress {
+                    @include flex-jc-ai(row , space-between , center);
                     h5 {}
                 }
-                .progress {}
+                .progress {
+                    width: 100%;
+                    height: 5px;
+                    background-color: rgba(0, 0, 0, 0.26);
+                    margin: 10px 0;
+                    border-radius: 10px;
+                }
             }
             .mini-card-footer {
-                .card-link {
-                    i {}
-                    small {}
+                @include flex(row);
+                padding: 10px 0;
+                &:first-child {
+                    .time {
+                        
+                    }
+                }
+                .card-like {
+                    color: $textMuted;
                 }
                 .card-comment {
-                    i {}
-                    small {}
+                    color: $textMuted;
+                    padding: 0 10px;
                 }
                 .time {
-                    i {}
-                    small {}
+                    margin-left: auto;
+                    font-size: $smallText;
+                    font-weight: bold;
+                    padding: 5px 10px;
+                    border-radius: 20px;
                 }
             }
         }
     }
 }
+
