@@ -39,7 +39,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 140px;
+  margin-left: 8.75rem;
 }
 
 .sidebar {
@@ -207,7 +207,7 @@ body {
 }
 
 .title-bar-notification .notification-dropdown ul .notification-list p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .title-bar-profile {
@@ -311,9 +311,9 @@ body {
 .main-card {
   background-color: white;
   width: 70vw;
-  border-radius: 50px;
-  padding: 5px;
-  padding-bottom: 40px;
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  padding-bottom: 2.5rem;
 }
 
 .main-card .card-title-section {
@@ -330,11 +330,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.151);
+  border-bottom: 0.125rem solid rgba(0, 0, 0, 0.151);
 }
 
 .main-card .card-title-section .card-brand {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .main-card .card-title-section .card-brand i {
@@ -343,7 +343,7 @@ body {
 
 .main-card .card-title-section .card-brand h3 {
   display: inline;
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 
 .main-card .card-title-section .period-nav ul {
@@ -360,26 +360,26 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-right: 50px;
+  padding-right: 3.125rem;
 }
 
 .main-card .card-title-section .period-nav ul .period-list {
-  width: 90px;
-  border-bottom: 2px solid transparent;
+  width: 5.625rem;
+  border-bottom: 0.125rem solid transparent;
 }
 
 .main-card .card-title-section .period-nav ul .period-list a {
-  padding: 22px 20px;
+  padding: 1.375rem 1.25rem;
   color: rgba(0, 0, 0, 0.521);
 }
 
 .main-card .card-title-section .period-nav ul .period-list a:hover {
-  border-bottom: 2px solid #4361ee;
+  border-bottom: 0.125rem solid #4361ee;
   color: #4361ee;
 }
 
 .main-card .card-graph-container {
-  padding: 20px 10px 10px 20px;
+  padding: 1.25rem 0.625rem 0.625rem 1.25rem;
   position: relative;
 }
 
@@ -400,28 +400,28 @@ body {
 }
 
 .main-card .card-graph-container .card-graph .graph-container:first-child .hour-container {
-  margin-left: 50px;
-  width: 400px;
-  height: 40px;
-  border-left: 5px solid #ff5d8f;
+  margin-left: 3.125rem;
+  width: 25rem;
+  height: 2.5rem;
+  border-left: 0.3125rem solid #ff5d8f;
   background-color: #ff5d904f;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:first-child .hour-container small {
   color: #ff5d8f;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(2) .vacation {
-  width: 200px;
-  border-bottom: 2px solid #072ac8;
-  margin-top: -15px;
+  width: 12.5rem;
+  border-bottom: 0.125rem solid #072ac8;
+  margin-top: -0.9375rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(2) .vacation p {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #072ac8;
-  width: 55px;
+  width: 3.4375rem;
   margin: auto;
 }
 
@@ -439,77 +439,77 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 135px;
+  margin-left: 8.4375rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(2) .period-container .hour-container {
-  height: 40px;
-  border-left: 5px solid #072ac8;
+  height: 2.5rem;
+  border-left: 0.3125rem solid #072ac8;
   background-color: #072ac849;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(2) .period-container .hour-container:nth-child(1) {
-  width: 240px;
+  width: 15rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(2) .period-container .hour-container:last-child {
-  width: 300px;
+  width: 18.75rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(2) .period-container .hour-container small {
   color: #072ac8;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(3) .hour-container {
-  margin-left: 250px;
-  width: 450px;
-  height: 40px;
-  border-left: 5px solid #f3722c;
+  margin-left: 15.625rem;
+  width: 28.125rem;
+  height: 2.5rem;
+  border-left: 0.3125rem solid #f3722c;
   background-color: #f3722c62;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(3) .hour-container small {
   color: #f3722c;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(4) .hour-container {
-  margin-left: 335px;
-  width: 450px;
-  height: 40px;
-  border-left: 5px solid #59b45f;
+  margin-left: 20.9375rem;
+  width: 28.125rem;
+  height: 2.5rem;
+  border-left: 0.3125rem solid #59b45f;
   background-color: #7ae58156;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(4) .hour-container small {
   color: #59b45f;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(4) .hour-container .img-group img {
-  margin-left: -10px;
+  margin-left: -0.625rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(5) .hour-container {
-  margin-left: 425px;
-  width: 440px;
-  height: 40px;
-  border-left: 5px solid #00b4d8;
+  margin-left: 26.5625rem;
+  width: 27.5rem;
+  height: 2.5rem;
+  border-left: 0.3125rem solid #00b4d8;
   background-color: #00b4d846;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(5) .hour-container small {
   color: #00b4d8;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container:nth-child(5) .hour-container .img-group img {
-  margin-left: -10px;
+  margin-left: -0.625rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container h6 {
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container .hour-container {
@@ -526,39 +526,39 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 0.625rem 0.625rem 0;
 }
 
 .main-card .card-graph-container .card-graph .graph-container .hour-container small {
   display: block;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container .hour-container .img-group {
   margin-left: auto;
-  margin-right: 10px;
-  padding-top: 7px;
+  margin-right: 0.625rem;
+  padding-top: 0.4375rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container .hour-container .img-group img {
-  width: 20px;
-  border: 1px solid white;
-  border-radius: 50px;
+  width: 1.25rem;
+  border: 0.0625rem solid white;
+  border-radius: 3.125rem;
 }
 
 .main-card .card-graph-container .card-graph .graph-container .hour-container .img-group img:last-child {
-  margin-left: -10px;
+  margin-left: -0.625rem;
 }
 
 .main-card .card-graph-container .graph-value {
-  margin-left: 155px;
-  padding-top: 30px;
+  margin-left: 9.6875rem;
+  padding-top: 1.875rem;
 }
 
 .main-card .card-graph-container .graph-value span {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.521);
-  padding: 0 35px;
+  padding: 0 2.1875rem;
 }
 
 .main-card .card-graph-container .graph-value span:nth-child(1) {
@@ -567,31 +567,31 @@ body {
 
 .main-card .card-graph-container .graph-value span:nth-child(1)::before {
   content: '';
-  width: 5px;
-  height: 350px;
-  border-left: 2px dashed rgba(0, 0, 0, 0.521);
+  width: 0.3125rem;
+  height: 21.875rem;
+  border-left: 0.125rem dashed rgba(0, 0, 0, 0.521);
   display: block;
   position: absolute;
-  top: 80px;
-  left: 183px;
+  top: 5rem;
+  left: 11.4375rem;
 }
 
 .main-card .card-graph-container .graph-value span:nth-child(2)::before {
   content: '';
-  width: 5px;
-  height: 270px;
-  border-left: 2px dashed rgba(0, 0, 0, 0.521);
+  width: 0.3125rem;
+  height: 16.875rem;
+  border-left: 0.125rem dashed rgba(0, 0, 0, 0.521);
   display: block;
   position: absolute;
-  top: 160px;
-  left: 280px;
+  top: 10rem;
+  left: 17.5rem;
 }
 
 .main-card .card-graph-container .graph-value span:nth-child(3)::before {
   content: '';
-  width: 5px;
+  width: 0.3125rem;
   height: 200px;
-  border-left: 2px dashed rgba(0, 0, 0, 0.521);
+  border-left: 0.125rem dashed rgba(0, 0, 0, 0.521);
   display: block;
   position: absolute;
   top: 230px;
@@ -600,9 +600,9 @@ body {
 
 .main-card .card-graph-container .graph-value span:nth-child(4)::before {
   content: '';
-  width: 5px;
+  width: 0.3125rem;
   height: 120px;
-  border-left: 2px dashed rgba(0, 0, 0, 0.521);
+  border-left: 0.125rem dashed rgba(0, 0, 0, 0.521);
   display: block;
   position: absolute;
   top: 310px;
@@ -611,9 +611,9 @@ body {
 
 .main-card .card-graph-container .graph-value span:nth-child(5)::before {
   content: '';
-  width: 5px;
+  width: 0.3125rem;
   height: 45px;
-  border-left: 2px dashed rgba(0, 0, 0, 0.521);
+  border-left: 0.125rem dashed rgba(0, 0, 0, 0.521);
   display: block;
   position: absolute;
   top: 385px;
@@ -633,20 +633,20 @@ body {
 }
 
 .main-card .multi-card-container .mini-card {
-  -webkit-box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.116);
-          box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.116);
+  -webkit-box-shadow: 0.125rem 0.125rem 3.125rem rgba(0, 0, 0, 0.116);
+          box-shadow: 0.125rem 0.125rem 3.125rem rgba(0, 0, 0, 0.116);
   width: 300px;
   text-align: center;
-  border-radius: 20px;
-  margin: 0 20px;
+  border-radius: 1.25rem;
+  margin: 0 1.25rem;
   padding: 15px;
 }
 
 .main-card .multi-card-container .mini-card:first-child .mini-card-progress .progress::after {
   content: '';
   display: block;
-  border-radius: 20px;
-  height: 5px;
+  border-radius: 1.25rem;
+  height: 0.3125rem;
   width: 45%;
   background-color: #59b45f;
 }
@@ -659,8 +659,8 @@ body {
 .main-card .multi-card-container .mini-card:nth-child(2) .mini-card-progress .progress::after {
   content: '';
   display: block;
-  border-radius: 20px;
-  height: 5px;
+  border-radius: 1.25rem;
+  height: 0.3125rem;
   width: 100%;
   background-color: #59b45f;
 }
@@ -673,8 +673,8 @@ body {
 .main-card .multi-card-container .mini-card:nth-child(3) .mini-card-progress .progress::after {
   content: '';
   display: block;
-  border-radius: 20px;
-  height: 5px;
+  border-radius: 1.25rem;
+  height: 0.3125rem;
   width: 75%;
   background-color: #59b45f;
 }
@@ -685,9 +685,9 @@ body {
 }
 
 .main-card .multi-card-container .mini-card .card-icon {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: white;
-  margin-top: -40px;
+  margin-top: -2.5rem;
 }
 
 .main-card .multi-card-container .mini-card .card-icon i {
@@ -698,31 +698,31 @@ body {
 
 .main-card .multi-card-container .mini-card a {
   position: relative;
-  top: -20px;
+  top: -1.25rem;
   left: 120px;
   color: rgba(0, 0, 0, 0.521);
 }
 
 .main-card .multi-card-container .mini-card .mini-card-title h3 {
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .main-card .multi-card-container .mini-card .mini-card-title small {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.521);
 }
 
 .main-card .multi-card-container .mini-card .mini-card-avator {
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .main-card .multi-card-container .mini-card .mini-card-avator img {
-  width: 20px;
-  margin-left: -10px;
+  width: 1.25rem;
+  margin-left: -0.625rem;
 }
 
 .main-card .multi-card-container .mini-card .mini-card-avator img:last-child {
-  margin-left: -10px;
+  margin-left: -0.625rem;
 }
 
 .main-card .multi-card-container .mini-card .mini-card-progress .card-progress {
@@ -743,10 +743,10 @@ body {
 
 .main-card .multi-card-container .mini-card .mini-card-progress .progress {
   width: 100%;
-  height: 5px;
+  height: 0.3125rem;
   background-color: rgba(0, 0, 0, 0.26);
-  margin: 10px 0;
-  border-radius: 10px;
+  margin: 0.625rem 0;
+  border-radius: 0.625rem;
 }
 
 .main-card .multi-card-container .mini-card .mini-card-footer {
@@ -757,7 +757,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 
 .main-card .multi-card-container .mini-card .mini-card-footer .card-like {
@@ -766,15 +766,15 @@ body {
 
 .main-card .multi-card-container .mini-card .mini-card-footer .card-comment {
   color: rgba(0, 0, 0, 0.521);
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 
 .main-card .multi-card-container .mini-card .mini-card-footer .time {
   margin-left: auto;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: bold;
-  padding: 5px 10px;
-  border-radius: 20px;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 1.25rem;
 }
 
 .main-side-section {
@@ -788,7 +788,7 @@ body {
 }
 
 .main-side-section .active-list-title small {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.521);
 }
 
@@ -818,11 +818,11 @@ body {
 
 .main-side-section .active-list-body .active-list-profile .list-profile-title small {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .main-side-section .active-list-body .active-list-profile .list-profile-title time {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.521);
 }
 
@@ -850,7 +850,7 @@ body {
 }
 
 .main-side-section .update-cards .update-card small {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.521);
 }
 

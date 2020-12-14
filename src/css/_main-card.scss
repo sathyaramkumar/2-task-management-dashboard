@@ -1,34 +1,34 @@
 .main-card {
     background-color: $white;
     width: 70vw;
-    border-radius: 50px;
-    padding: 5px;
-    padding-bottom: 40px;
+    border-radius: 3.125rem;
+    padding: 0.3125rem;
+    padding-bottom: 2.5rem;
     .card-title-section {
         @include flex-jc-ai(row , space-between ,center);
-        border-bottom: 2px solid rgba(0, 0, 0, 0.151);
+        border-bottom: 0.125rem solid rgba(0, 0, 0, 0.151);
         .card-brand {
-            padding: 20px;
+            padding: 1.25rem;
             i {
                 display: inline;
             }
             h3 {
                 display: inline;
-                padding-left: 10px;
+                padding-left: 0.625rem;
             }
         }
         .period-nav {
             ul {
                 @include flex-jc-ai(row , center ,center);
-                padding-right: 50px;
+                padding-right: 3.125rem;
                 .period-list {
-                    width: 90px;
-                    border-bottom: 2px solid transparent;
+                    width: 5.625rem;
+                    border-bottom: 0.125rem solid transparent;
                     a {
-                        padding: 22px 20px;
+                        padding: 1.375rem 1.25rem;
                         color: $textMuted;
                         &:hover {
-                            border-bottom: 2px solid $blue;
+                            border-bottom: 0.125rem solid $blue;
                             color: $blue;
                         }
                     }
@@ -37,125 +37,125 @@
         }
     }
     .card-graph-container {
-        padding: 20px 10px 10px 20px;
+        padding: 1.25rem 0.625rem 0.625rem 1.25rem;
         position: relative;
         .card-graph {
             .graph-container {
                 @include flex-jc-ai(row , start , center);
                 &:first-child {
                     .hour-container {
-                        margin-left: 50px;
-                        width: 400px;
-                        height: 40px;
-                        border-left: 5px solid $pink;
+                        margin-left: 3.125rem;
+                        width: 25rem;
+                        height: 2.5rem;
+                        border-left: 0.3125rem solid $pink;
                         background-color: $pinkLite;
                         small {
                             color: $pink;
-                            padding-left: 20px;
+                            padding-left: 1.25rem;
                         }
                     }
                 }
                 &:nth-child(2) {
                     .vacation {
-                        width: 200px;
-                        border-bottom: 2px solid $thickBlue;
-                        margin-top: -15px;
+                        width: 12.5rem;
+                        border-bottom: 0.125rem solid $thickBlue;
+                        margin-top: -0.9375rem;
                         p {
-                            font-size: 12px;
+                            font-size: 0.75rem;
                             color: $thickBlue;
-                            width: 55px;
+                            width: 3.4375rem;
                             margin: auto;
                         }
                     }
                     .period-container {
                         @include flex-jc-ai(row , start , center);
-                        margin-left: 135px;
+                        margin-left: 8.4375rem;
                         .hour-container {
-                            height: 40px;
-                            border-left: 5px solid $thickBlue;
+                            height: 2.5rem;
+                            border-left: 0.3125rem solid $thickBlue;
                             background-color: $thickBlueLite;
                             &:nth-child(1) {
-                                width: 240px;
+                                width: 15rem;
                             }
                             &:last-child {
-                                width: 300px;
+                                width: 18.75rem;
                             }
                             small { 
                                 color: $thickBlue;
-                                padding-left: 20px;
+                                padding-left: 1.25rem;
                             }
                         }
                     }
                 }
                 &:nth-child(3) {
                     .hour-container {
-                        margin-left: 250px;
-                        width: 450px;
-                        height: 40px;
-                        border-left: 5px solid $orange;
+                        margin-left: 15.625rem;
+                        width: 28.125rem;
+                        height: 2.5rem;
+                        border-left: 0.3125rem solid $orange;
                         background-color: $orangeLite;
                         small {
                             color: $orange;
-                            padding-left: 20px;
+                            padding-left: 1.25rem;
                         }
                     }
                 }
                 &:nth-child(4) {
                     .hour-container {
-                        margin-left: 335px;
-                        width: 450px;
-                        height: 40px;
-                        border-left: 5px solid $green;
+                        margin-left: 20.9375rem;
+                        width: 28.125rem;
+                        height: 2.5rem;
+                        border-left: 0.3125rem solid $green;
                         background-color: $greenLite;
                         small {
                             color: $green;
-                            padding-left: 20px;
+                            padding-left: 1.25rem;
                         }
                         .img-group {
                             img {
-                                margin-left: -10px;
+                                margin-left: -0.625rem;
                             }
                         }
                     }
                 }
                 &:nth-child(5) {
                     .hour-container {
-                        margin-left: 425px;
-                        width: 440px;
-                        height: 40px;
-                        border-left: 5px solid $skyBlue;
+                        margin-left: 26.5625rem;
+                        width: 27.5rem;
+                        height: 2.5rem;
+                        border-left: 0.3125rem solid $skyBlue;
                         background-color: $skyBlueLite;
                         small {
                             color: $skyBlue;
-                            padding-left: 20px;
+                            padding-left: 1.25rem;
                         }
                         .img-group {
                             img {
-                                margin-left: -10px;
+                                margin-left: -0.625rem;
                             }
                         }
                     }
                 }
                 h6 {
-                    padding: 30px;
+                    padding: 1.875rem;
                 }
                 .hour-container {
                     @include flex-jc-ai(row , start , center);
-                    border-radius: 0 10px 10px 0;
+                    border-radius: 0 0.625rem 0.625rem 0;
                     small {
                         display: block;
-                        font-size: 10px;
+                        font-size: 0.625rem;
                     }
                     .img-group {
                         margin-left: auto;
-                        margin-right: 10px;
-                        padding-top: 7px;
+                        margin-right: 0.625rem;
+                        padding-top: 0.4375rem;
                         img {
-                            width: 20px;
-                            border: 1px solid white;
-                            border-radius: 50px;
+                            width: 1.25rem;
+                            border: 0.0625rem solid white;
+                            border-radius: 3.125rem;
                             &:last-child {
-                                margin-left: -10px;
+                                margin-left: -0.625rem;
                             }
                         }
                     }
@@ -163,43 +163,43 @@
             }
         }
         .graph-value {
-            margin-left: 155px;
-            padding-top: 30px;
+            margin-left: 9.6875rem;
+            padding-top: 1.875rem;
             span {
                 font-size: $expraSmallText;
                 color: $textMuted;
-                padding: 0 35px;
+                padding: 0 2.1875rem;
                 &:nth-child(1) {
                     padding-left: 0;
                     &::before {
                         content: '';
-                        width: 5px;
-                        height: 350px;
-                        border-left: 2px dashed $textMuted;
+                        width: 0.3125rem;
+                        height: 21.875rem;
+                        border-left: 0.125rem dashed $textMuted;
                         display: block;
                         position: absolute;
-                        top: 80px;
-                        left: 183px;
+                        top: 5rem;
+                        left: 11.4375rem;
                     }
                 }
                 &:nth-child(2) {
                     &::before {
                         content: '';
-                        width: 5px;
-                        height: 270px;
-                        border-left: 2px dashed $textMuted;
+                        width: 0.3125rem;
+                        height: 16.875rem;
+                        border-left: 0.125rem dashed $textMuted;
                         display: block;
                         position: absolute;
-                        top: 160px;
-                        left: 280px;
+                        top: 10rem;
+                        left: 17.5rem;
                     }
                 }
                 &:nth-child(3) {
                     &::before {
                         content: '';
-                        width: 5px;
+                        width: 0.3125rem;
                         height: 200px;
-                        border-left: 2px dashed $textMuted;
+                        border-left: 0.125rem dashed $textMuted;
                         display: block;
                         position: absolute;
                         top: 230px;
@@ -209,9 +209,9 @@
                 &:nth-child(4) {
                     &::before {
                         content: '';
-                        width: 5px;
+                        width: 0.3125rem;
                         height: 120px;
-                        border-left: 2px dashed $textMuted;
+                        border-left: 0.125rem dashed $textMuted;
                         display: block;
                         position: absolute;
                         top: 310px;
@@ -221,9 +221,9 @@
                 &:nth-child(5) {
                     &::before {
                         content: '';
-                        width: 5px;
+                        width: 0.3125rem;
                         height: 45px;
-                        border-left: 2px dashed $textMuted;
+                        border-left: 0.125rem dashed $textMuted;
                         display: block;
                         position: absolute;
                         top: 385px;
@@ -239,11 +239,11 @@
         width: 1000px;
         margin: 100px auto auto auto;
         .mini-card {
-            box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.116);
+            box-shadow: 0.125rem 0.125rem 3.125rem rgba(0, 0, 0, 0.116);
             width: 300px;
             text-align: center;
-            border-radius: 20px;
-            margin: 0 20px;
+            border-radius: 1.25rem;
+            margin: 0 1.25rem;
             padding: 15px;
             &:first-child {
                 .mini-card-progress {
@@ -251,8 +251,8 @@
                         &::after {
                             content: '';
                             display: block;
-                            border-radius: 20px;
-                            height: 5px;
+                            border-radius: 1.25rem;
+                            height: 0.3125rem;
                             width: 45%;
                             background-color: $green;
                         }
@@ -271,8 +271,8 @@
                         &::after {
                             content: '';
                             display: block;
-                            border-radius: 20px;
-                            height: 5px;
+                            border-radius: 1.25rem;
+                            height: 0.3125rem;
                             width: 100%;
                             background-color: $green;
                         }
@@ -291,8 +291,8 @@
                         &::after {
                             content: '';
                             display: block;
-                            border-radius: 20px;
-                            height: 5px;
+                            border-radius: 1.25rem;
+                            height: 0.3125rem;
                             width: 75%;
                             background-color: $green;
                         }
@@ -306,9 +306,9 @@
                 }
             }
             .card-icon {
-                font-size: 40px;
+                font-size: 2.5rem;
                 color: $white;
-                margin-top: -40px;
+                margin-top: -2.5rem;
                 i {
                     background-color: $blue;
                     padding: 15px;
@@ -317,7 +317,7 @@
             }
             a {
                 position: relative;
-                top: -20px;
+                top: -1.25rem;
                 left: 120px;
                 color: $textMuted;
             }
@@ -331,12 +331,12 @@
                 }
             }
             .mini-card-avator {
-                margin: 10px 0;
+                margin: 0.625rem 0;
                 img {
-                    width: 20px;
-                    margin-left: -10px;
+                    width: 1.25rem;
+                    margin-left: -0.625rem;
                     &:last-child {
-                        margin-left: -10px;
+                        margin-left: -0.625rem;
                     }
                 }
             }
@@ -347,15 +347,15 @@
                 }
                 .progress {
                     width: 100%;
-                    height: 5px;
+                    height: 0.3125rem;
                     background-color: rgba(0, 0, 0, 0.26);
-                    margin: 10px 0;
-                    border-radius: 10px;
+                    margin: 0.625rem 0;
+                    border-radius: 0.625rem;
                 }
             }
             .mini-card-footer {
                 @include flex(row);
-                padding: 10px 0;
+                padding: 0.625rem 0;
                 &:first-child {
                     .time {
                         
@@ -366,14 +366,14 @@
                 }
                 .card-comment {
                     color: $textMuted;
-                    padding: 0 10px;
+                    padding: 0 0.625rem;
                 }
                 .time {
                     margin-left: auto;
                     font-size: $smallText;
                     font-weight: bold;
-                    padding: 5px 10px;
-                    border-radius: 20px;
+                    padding: 0.3125rem 0.625rem;
+                    border-radius: 1.25rem;
                 }
             }
         }
